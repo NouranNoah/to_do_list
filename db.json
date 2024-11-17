@@ -1,0 +1,51 @@
+{
+  "users": [
+    {
+      "id": "e206",
+      "first_name": "Nouran",
+      "last_name": "Nouh",
+      "email": "nour@s.com",
+      "password": "222222222222222",
+      "age": 22,
+      "todo": [
+        {
+          "title": "Project",
+          "info": "React Ptoject",
+          "date": "2024-08-13",
+          "status": "completed",
+          "priority": "high",
+          "isChecked": true,
+          "id": "1"
+        },
+        {
+          "title": "Graduation project",
+          "info": "ewe wewew wew ewweq",
+          "date": "2024-08-31",
+          "status": "pending",
+          "priority": "high",
+          "isChecked": true,
+          "id": "2"
+        },
+        {
+          "title": "Task ",
+          "info": "Task java script",
+          "date": "2024-09-06",
+          "status": "pending",
+          "priority": "low",
+          "isChecked": false,
+          "id": "3"
+        },
+        {
+          "title": "Meeting",
+          "info": "meeting with my Doctor",
+          "date": "2024-08-21",
+          "status": "pending",
+          "priority": "low",
+          "isChecked": false,
+          "id": "4"
+        }
+      ]
+    }
+    
+  ]
+}

@@ -1,0 +1,191 @@
+.card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+
+                                /*  page Register  */
+  .btn-custom {
+    background-color: transparent; 
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease; 
+}
+.btn-custom{
+    background-color: rgb(249, 136, 153);
+}
+.btn-custom:hover {
+    background-color: rgb(254, 107, 129);
+    color: white;
+}
+.form-control:focus {
+    border-color: rgb(249, 136, 153);
+    box-shadow: 0 0 0 0.2rem rgb(249, 136, 153);
+    outline: none;
+}
+
+.btn-log{
+    background-color: rgb(255, 255, 255); 
+    font-weight: bold;
+    border-radius: 0  50% ;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0 10px;
+    
+}
+.btn-reg{
+    background-color: navy; 
+    font-weight: bold;
+    border-radius: 50% 0;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    transition:  0.3s ease; 
+}
+.btn-log:hover,.btn-reg:hover{
+    background-color: royalblue;
+}
+
+
+.btnLog{
+    background-color: navy;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    box-shadow: 0 0 5px 0px white;
+    cursor: pointer;
+}
+.btnLog:hover{
+    background-color: royalblue;
+}
+
+
+
+nav ul li a[disabled] {
+    color: lightgray;
+    pointer-events: none; 
+  }
+
+  img{
+    width: 100%;
+    
+  }
+
+  .regImg{
+    height: 60vh;
+  }
+
+  
+  
+  .card {
+    padding: 20px;
+    border-radius: 10px;
+    color: navy;
+  }
+
+  .card h3 {
+    color: navy;
+    font-weight: bold;
+  }
+  
+  .form-control {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-bottom: 5px;
+  }  
+  .form-text.text-danger {
+    font-size: 0.875rem;
+  }
+
+
+  
+  
+  footer {
+    background-color: rgba(1, 1, 66, 0.991);
+    color: lightpink;
+    text-align: center;
+    padding: 40px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+  }
+
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    max-width: 1200px;
+    margin: 0 auto; 
+  }
+  
+  .footer-section {
+    flex: 1; 
+    margin: 0 10px; 
+  }
+  
+  .footer-section p {
+    margin: 0;
+    color: lightpink; 
+  }
+  
+  .footer-section a {
+    display: block;
+    color: white; 
+    text-decoration: none; 
+    margin: 5px 0; 
+  }
+  
+  .footer-section a:hover {
+    text-decoration: underline; 
+    color: lightpink; 
+  }
+  .cont-log{
+    margin-top: 5%;
+  }
+  
+  
+
+  @media all and (min-width: 200px) and (max-width: 750px) {
+    .regImg{
+        display: none;
+    }
+
+    .footer-content {
+      flex-direction: column;
+      text-align: center; 
+    }
+    
+    .footer-section {
+      margin: 10px 0; 
+    }
+    .navbar-logo{
+      width: 30%;
+    }
+    .card-box{
+      margin-top: 10%;
+    }
+    .cont-log{
+      margin-top: 25%;
+    }
+    
+  }
+

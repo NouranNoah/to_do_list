@@ -1,0 +1,26 @@
+.navbar-logo {
+    max-height: 55px;
+    width: auto;
+    margin-right: 1rem; 
+    border-radius: 50%;
+    margin-left: -5%;
+  }
+  .nav-link{
+    font-size: 19px;
+  }
+.nav-link:hover {
+    color: white; 
+    text-decoration: underline; 
+  }
+ 
+.font{
+  color:navy; 
+  text-decoration:none; 
+  
+}
+*{
+  font-family: cursive;
+  text-decoration: none;
+}
+
+

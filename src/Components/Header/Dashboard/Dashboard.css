@@ -1,0 +1,73 @@
+.dashboard {
+  padding: 20px;
+}
+
+.dashboard h1 {
+  color: navy;
+  margin: 3% 0;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.stats div {
+  padding: 10px;
+  background-color: lightpink;
+  border-radius: 5px;
+  width: 20%;
+  text-align: center;
+}
+
+.stats div:hover {
+  background-color: rgba(255, 182, 193, 0.683);
+}
+
+.task-list {
+  margin-top: 20px;
+}
+
+.noteTask {
+  text-align: center;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: rgba(135, 206, 250, 0.457);
+}
+
+@media (max-width: 768px) {
+  .stats {
+    flex-direction: column;
+    align-items: center; 
+  }
+
+  .stats div {
+    width: 80%;
+    margin: 10px 0;
+    text-align: center; 
+  }
+
+  .noteTask {
+    width: 90%; 
+  }
+}
+
+@media (max-width: 480px) {
+  .dashboard {
+    padding: 10px;
+  }
+
+  .noteTask {
+    font-size: 14px;
+    padding: 8px;
+    width: 100%; 
+  }
+
+  .stats div {
+    width: 100%;
+    font-size: 14px; 
+  }
+}

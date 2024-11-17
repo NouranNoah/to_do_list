@@ -1,0 +1,41 @@
+
+@media (max-width: 768px) {
+    .taskContent {
+        padding: 15px;
+        width: 100%;
+    }
+
+    .box-radio {
+        flex-direction: column;
+    }
+
+    .box-radio1, .box-radio2 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .all-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .form-control {
+        font-size: 0.875rem;
+        padding: 8px;
+
+    }
+
+    .btn-custom {
+        width: 100%;
+        padding: 12px;
+        font-size: 0.875rem;
+    }
+
+    .box-radio label {
+        display: block;
+        margin-bottom: 5px;
+    }
+    
+}

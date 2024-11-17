@@ -1,0 +1,170 @@
+.all {
+  align-items: center;
+  text-align: center;
+  padding: 5% 0;
+  justify-content: center;
+}
+
+.content1, .content2 {
+  display: flex;
+  margin-top: 5%;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  margin-bottom: 20%;
+  flex: 1;
+  background-color: rgba(0, 0, 128, 0.828);
+  border-radius: 50% 50% 100% 0;
+  padding: 4%;
+  margin-right: 5%;
+}
+
+.content2 .header {
+  border-radius: 50% 50% 0 100%;
+  margin-left: 5%;
+  margin-right: 0;
+  padding: 5%;
+}
+
+.headerh1 {
+  font-size: 2rem;
+  color: white;
+}
+
+.headerp {
+  font-size: 15px;
+  color: white;
+  max-width: 600px;
+  padding: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.imgheader {
+  flex: 1;
+  max-width: 800px;
+  justify-content: center;
+  align-items: center;
+}
+
+.content2 img {
+  width: 110%;
+}
+
+.all img {
+  width: 90%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.btn-header {
+  background-color: lightpink;
+  font-weight: bold;
+  color: navy;
+  border-radius: 35px;
+  padding: 10px 0;
+  width: 40%;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-header:hover {
+  background-color: rgb(233, 151, 165);
+}
+
+.content {
+  color: lightpink;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10%;
+  border-radius: 25px;
+}
+
+.head h1 {
+  font-weight: 900;
+  font-size: 50px;
+}
+
+.content .head p {
+  color: navy;
+  padding: 2% 15%;
+  font-family: "Gill Sans Extrabold", sans-serif;
+  font-size: 1rem;
+}
+
+.list ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+  margin-top: 3%;
+}
+
+.list img {
+  width: 70%;
+  border-radius: 50% 30%;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.list img:hover {
+  transform: translateY(-10px);
+  filter: brightness(1.1);
+}
+
+/* Responsive styles for medium screens */
+@media (min-width: 200px) and (max-width: 750px) {
+  .content h1 {
+    font-size: 40px;
+  }
+  
+  .content1, .content2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+    padding: 5%;
+  }
+  
+  .content2 img {
+    display: none;
+  }
+  
+  .btn-header {
+    width: 40%;
+    margin: 0 10px;
+    padding: 10px;
+  }
+  .headerh1{
+    font-size: 35px;
+    padding: 20px;
+    margin-top: 25%;
+  }
+  .header, .content2 .header {
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 30px;
+    padding: 5%;
+    margin-right: 0;
+  }
+}
+  
+  .content .head p {
+    font-size: 0.9rem;
+    padding: 2% 5%;
+  }
+
+  .list img {
+    width: 90%;
+  }
+
+.navbar-logo {
+  margin-left: auto;
+  margin-right: auto;
+}
+

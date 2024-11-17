@@ -1,0 +1,238 @@
+.bg-add {
+    background-color: rgb(200, 199, 199);
+    border-radius: 50% 0 0 50%;
+    width: 11%;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    bottom: 25%; 
+    right: 0px;  
+}
+
+
+.add {
+    font-size: 50px;
+    background-color: lightpink;
+    width: 135%;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition:  0.3s ease; 
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+.add:hover{
+    background-color: rgba(0, 0, 128, 0.758);
+}
+
+.text-add {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5%;
+}
+/* ////////////////////////////////////////////////////////////////// */
+.task-list{
+    display: grid;
+    grid-template-columns: 35% 35%;
+    grid-template-rows: 50%;
+    gap: 5%;
+    padding: 0  5%;
+    justify-content: center;
+}
+.noteTask{
+    padding: 5%;
+    height: 45vh;
+    border-radius: 20px;
+    position: relative;
+    transition: background-color 0.3s, text-decoration 0.3s;
+}
+.task-list p{
+    color: gray;
+}
+.task-list h3{
+    color: rgb(0, 0, 61);
+    margin-top: 9%;
+}
+.task-list label{
+    position: absolute;
+    bottom:10px;
+    right: 10px;
+    color: navy;
+}
+
+.noteTask input[type="checkbox"] {
+    position: absolute;
+    bottom: 14px;
+    right: 50px;
+  }
+/* /////////////////////////////////////////////////////////////////////////// */
+.options {
+    position: fixed;
+    top: 0;
+    left: 0; 
+    width: 17%; 
+    background-color: rgba(255, 182, 193, 0.314); 
+    color: navy; 
+    padding: 20px; 
+    box-shadow: -4px 0 6px rgba(0, 0, 0, 0.5); 
+    height: 100vh; 
+    z-index: -1; 
+    text-align: start;
+}
+
+.options h3 {
+    margin-top: 80%;
+    margin-bottom: 15%;
+    font-weight: bold;
+}
+
+.options-list {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+  }
+  
+  .options-list li {
+    margin: 10px 0; 
+  }
+  
+  .options-list a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none; 
+    color: navy; 
+    background-color: rgba(255, 182, 193, 0.314); 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+  }
+  
+  .options-list a:hover {
+    background-color: rgba(135, 206, 250, 0.457); 
+  }
+  
+  .options-list a:active {
+    background-color: rgba(248, 214, 214, 0.691); 
+  }
+  
+/* //////////////////////////////////////////////////////////////////////////// */
+.welcome{
+    color: navy;
+    margin: 2% 0;
+}
+
+.delete-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #ff0000; 
+    font-size: 24px; 
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+  }
+  
+  .delete-btn:hover {
+    color: #cc0000; 
+  }
+  .edit-btn:hover{
+    background-color: rgba(2, 2, 166, 0.657);
+    color: white;
+  }
+
+  .edit-btn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    cursor: pointer;
+    border-radius: 50%;
+    color: navy; 
+    font-size: 25px; 
+    transition: background-color  0.3s; 
+    
+  }
+  .noteTask.checked {
+    background-color: rgba(0, 0, 0, 0.383); /* Checked color */
+    
+}
+
+  
+  
+  
+.noTask{
+    grid-column: 1 / -1; 
+}
+.index{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    border-radius: 50%;
+    padding: 5px 10px;
+    /* background-color:navy ; */
+    color: navy;
+    border: 1px solid navy;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1200px) {
+    .bg-add {
+        width: 20%;
+        height: 120px;
+        max-width: 80px;
+    }
+
+    .add {
+        font-size: 40px;
+        width: 25%;
+        height: 30px;
+    }
+
+    .text-add {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 720px) {
+    .bg-add {
+        width: 25%;
+        height: 100px;
+        max-width: 70px;
+    }
+
+    .add {
+        font-size: 35px;
+        width: 100%;
+        height: 30px;
+    }
+
+    .text-add {
+        font-size: 16px;
+    }
+    .options{
+        display: none;
+    }
+    .task-list{
+        grid-template-columns: 100%;
+    }
+   
+}
+

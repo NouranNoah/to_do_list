@@ -1,0 +1,76 @@
+
+.taskContent {
+    background-color: rgba(2, 81, 218, 0.261);
+    width: 60%; 
+    max-width: 600px; 
+    height: auto; 
+    min-height: 75vh; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 2rem; 
+    border-radius: 8px; 
+    margin: 2rem auto; 
+}
+
+
+.taskContent form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch; 
+}
+
+
+.taskContent .form-control {
+    width: 100%; 
+    margin-top: 1rem; 
+    padding: 0.5rem; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+}
+
+
+.taskContent label {
+    color: navy;
+    margin-top: 1rem; 
+    font-weight: bold; 
+}
+
+
+.error {
+    color: red; 
+    font-size: 0.875rem; 
+    margin-top: 0.5rem;
+}
+
+
+.btn-custom {
+    background-color: navy; 
+    color: white;
+    border: none; 
+    border-radius: 4px; 
+    padding: 0.75rem 1.5rem; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+
+.btn-custom:hover {
+    background-color: darkblue; 
+}
+.box-radio {
+    display: flex;
+    justify-content: space-between;
+}
+.box-radio1, .box-radio2{
+    display: flex;
+    text-align: left;
+}
+.box-radio1 div , .box-radio2 div{
+    max-width: 50%;
+    margin-left: 10%;
+}
+.box-radio1 div label , .box-radio2 div label{
+color: white;
+}
+.box-radio1 div input[type="radio"], .box-radio2 div input[type="radio"] {
+    margin-right: 0.5rem; 
+}
